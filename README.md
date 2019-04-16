@@ -61,14 +61,3 @@ I usually use paid IaaS, like DigitalOcean or Linode
 That's it.
 
 Please feel free to reach out to me by filing an issue or at mark@mergemedia.co.za for help configuring your project.
-
-### Contributors
-- [@markmngoma](https://github.com/markmngoma)
-- [@typpo](https://github.com/typpo)
-
-### Acknowlegements
-- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-- Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-
-### License
-[MIT](https://github.com/NtsikaMngoma/markmngoma/blob/master/LICENSE)
