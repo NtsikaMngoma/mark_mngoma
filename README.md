@@ -17,8 +17,8 @@ You may wish to fork this repository or remove my remote origin and add your own
 
 1. To download the repository and install dependencies, run the following commands:
 ```bash
-git clone git://github.com/NtsikaMngoma/markmngoma.git
-cd markmngoma
+git clone git://github.com/NtsikaMngoma/mark_mngoma.git
+cd mark_mngoma / mv mark_mngoma my_own_name then 'cd'
 yarn
 ```
 If you do not have `yarn` installed, you may run `npm install` instead.
