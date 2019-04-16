@@ -48,14 +48,12 @@ This completes set up instructions. Please continue reading to learn how to modi
 5. You've finished modifying >95% of the pages. Search through the rest of the files for references to `Michael` or `Angelo` and change values to your name.
 6. Change the description in `server/views/index.tpl.html`. You may also wish to add a new favicon or remove it. [This](https://realfavicongenerator.net/) website may be helpful.
 7. Decide how and where you are going to host this project. I recommend purchasing your own domain name from [Google Domains](https://domains.google). If you would like to host on github pages, run `npm run deploy`. This will generate a new branch called `gh-pages`. Then go to `https://github.com/[your github username]/markmngoma/settings` and configure accordingly:
-
-![github hosting instructions](docs/gh-pages.png)
-
 8. Configure your domains DNS record. See [here]( https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
 9. If using a custom url, modify the `CNAME` file to point to your URL. Modify the npm deploy script by appending `&& cp CNAME dist/` to the end of the `predeploy` line in the scripts section of package.json.
 If you plan to deploy to a /[path]
 (e.g. http://markmngoma.info/), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
 
+I usually use paid IaaS, like DigitalOcean or Linode
 ###  Deploying to Github Pages:
 1. Change `NODE_ENV` to `production` in `.env`
 2. Run `npm run deploy`
